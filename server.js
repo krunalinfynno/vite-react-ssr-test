@@ -13,7 +13,7 @@ const templateHtml = isProduction
   : "";
 
 // Create http server
-const app = express();
+export const app = express();
 
 // Add Vite or respective production middlewares
 /** @type {import('vite').ViteDevServer | undefined} */
